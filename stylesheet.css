@@ -1,0 +1,136 @@
+.text{
+    font-weight:900;
+    font-size:1.5em ;
+    color: coral;
+    background-color: rgb(4, 23, 58);
+    height:10%;
+    border: 0.25em;
+    border-style: solid;
+    border-color: beige;
+    border-radius: 2em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#body{
+    background-color: greenyellow;
+    background:radial-gradient(circle,rgb(53, 2, 68),rgb(118, 31, 155),rgb(195, 58, 190))
+
+}
+
+
+#grid-section {
+    margin: 3em 0;
+    background-color: brown;
+  }
+  
+  #grid {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  li {
+    border: 1px solid #d1d6d6;
+    width: 90px;
+    height: 90px;
+    display: block;
+    float: left;
+    font-size: 3em;
+    text-align: center;
+    color: rgb(255, 0, 204);
+  }
+  
+  #c1, #c2, #c3 {
+    border-top: none;
+    background-color: beige;
+  }
+  
+  #c3, #c6, #c9 {
+    border-right: none;
+    background-color: beige;
+  }
+  
+  #c7, #c8, #c9 {
+    border-bottom: none;
+    background-color: beige;
+  }
+  
+  #c1, #c4, #c7 {
+    border-left: none;
+    background-color: beige;
+  }
+  #c5{
+    background-color: beige;
+  }
+  
+  .winner {
+    color: #a41b1b;
+  }
+  
+  .btn-primary, 
+  .btn-primary:focus {
+    background-color: #b76c33;
+    opacity: 0;
+      
+    transition: all ease .3s;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #fff;
+    border:0.25em;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e44d2f;
+  }
+  .message {
+    color: #fff;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    margin-left: 40%;
+  }
+  
+  form {
+    label {
+      font-size: 4em;
+      font-weight: bold;
+      vertical-align: middle;
+      background-color: rgb(210, 29, 186);
+      border-radius: 4px;
+      border:0.15em;
+      border-style: solid;
+    }
+    input[type=radio] {
+      margin: 1em;
+      cursor: pointer;
+      background-color: darkred;
+    }
+    fieldset {
+      display: block;
+      opacity: 1;
+      transition: all ease 1s;
+      background-color: burlywood; 
+      margin-left:40%;
+      margin-right: 40%; 
+    }
+    &.game-on fieldset {
+      opacity: 0;
+      display: none;
+    }    
+    &.game-on button {
+      opacity: 1;
+      display: block;
+      margin: 0 auto;
+    }
+   
+  }
+  #heading{
+    font: 900;
+    font-size:2em ;
+    color: deepskyblue;
+    margin-left: 30%;
+  }
+  

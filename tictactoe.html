@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe game!!!!</title>
+    <link rel ="stylesheet" href="stylesheet.css">
+   
+    
+</head>
+<body id="body">
+   
+    <div class="text">
+        <div class="icon">
+                <img src="190322_game_tac_tic_toe_icon.png">
+        </div>
+        <div>
+            <h1>Tic Tac Toe</h1>
+        </div>
+        <div class="icon">
+            <img src="190322_game_tac_tic_toe_icon.png">
+        </div>
+
+    </div>
+    <div class="container">
+    <div id="intro">
+        <h1 id="heading">Player vs Computer Tic-Tac-Toe</h1>
+        <h2 class="message">Choose your player:</h2>
+        <form action="#">
+        <fieldset>
+            <input type="radio" name="player-choice" id="player-choice-1" value="X" />
+            <label for="player-choice-1">X</label>
+            <input type="radio" name="player-choice" id="player-choice-2" value="O" />
+            <label for="player-choice-2">O</label>
+        </fieldset>
+        <button id="reset" class="btn btn-primary">Reset</button>
+        </form>  
+    </div>
+    <div class="row" id="grid-section">
+        <ul id="grid"></ul>
+    </div>  
+    
+  <script src="script.js"></script>
+</body>
+</html>
